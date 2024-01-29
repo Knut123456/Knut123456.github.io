@@ -1,0 +1,27 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto auto;
+    grid-template-areas:
+       "head head head"
+       "main main side"
+       "imgs imgs side"
+       "foot foot foot";
+}
+
+.overskrift-div {
+    grid-area: head;
+}
+.overskrift {
+    color: #837A74;
+   
+}
+
+/* Color Theme Swatches in Hex */
+.Web-Portfolio-Cold-1-hex { color: #837A74; }
+.Web-Portfolio-Cold-2-hex { color: #FFFFFF; }
+.Web-Portfolio-Cold-3-hex { color: #D0CECD; }
+.Web-Portfolio-Cold-4-hex { color: #678383; }
+.Web-Portfolio-Cold-5-hex { color: #CDD0D0; }
+
+
