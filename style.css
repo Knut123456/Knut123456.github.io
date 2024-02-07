@@ -1,12 +1,13 @@
 body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr auto auto;
+    grid-template-rows: auto 1fr auto auto auto;
     grid-template-areas:
        "head head head"
-       "div1 div1 div1"
-       "imgs imgs side"
-       "foot foot foot";
+       "ove1 ove1 ove1"
+       "img1 img1 img1"
+       "lin1 lin1 lin1"      /*link */
+       
 }
 
 .overskrift-div {
@@ -20,7 +21,7 @@ body {
     font-size: 10rem;
 }
 
-.proskjekt1 {
+.overskrift1 {
     grid-area: div1;
     background-color: red;
     border: 1px solid palegoldenrod;
