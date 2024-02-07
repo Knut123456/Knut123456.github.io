@@ -4,17 +4,26 @@ body {
     grid-template-rows: auto 1fr auto auto;
     grid-template-areas:
        "head head head"
-       "main main side"
+       "div1 div1 div1"
        "imgs imgs side"
        "foot foot foot";
 }
 
 .overskrift-div {
     grid-area: head;
+    border: 1px solid palegoldenrod;
+    background-color: #837A74;
 }
+
 .overskrift {
-    color: #837A74;
-   
+    color: #FFFFFF;  
+    font-size: 10rem;
+}
+
+.proskjekt1 {
+    grid-area: div1;
+    background-color: red;
+    border: 1px solid palegoldenrod;
 }
 
 /* Color Theme Swatches in Hex */
