@@ -1,12 +1,12 @@
 body {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr auto auto auto;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
     grid-template-areas:
-       "head head head"
-       "ove1 ove1 ove1"
-       "img1 img1 img1"
-       "lin1 lin1 lin1"      /*link */
+       "head"
+       "ove1"
+       "img1"
+       "lin1 "      /*link */
        
 }
 
@@ -16,16 +16,14 @@ body {
     background-color: #837A74;
 }
 
-.overskrift {
-    color: #FFFFFF;  
-    font-size: 10rem;
-}
+
 
 .overskrift1 {
-    grid-area: div1;
+    grid-area: ove1;
     background-color: red;
     border: 1px solid palegoldenrod;
 }
+.
 
 /* Color Theme Swatches in Hex */
 .Web-Portfolio-Cold-1-hex { color: #837A74; }
