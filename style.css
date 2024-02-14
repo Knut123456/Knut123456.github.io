@@ -1,9 +1,10 @@
 body {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto auto;
+    grid-template-rows: auto auto 1fr 1fr 1fr;
     grid-template-areas:
        "head"
+       "info"
        "ove1"
        "img1"
        "lin1 "      /*link */
@@ -21,8 +22,32 @@ body {
     background-color: red;
     border: 1px solid palegoldenrod;
 }
-.
 
+.overskrift
+.img1div{
+    grid-area: img1;
+}
+
+.img{
+    width: 50%;
+}
+
+button {
+    background-color: transparent;
+    appearance: none;
+    border: none;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    font-size: 2rem ;
+    font-family:gala ;
+    font-weight: ;
+}
+header button {
+    background-color: ;
+    color: ;
+    border: 2px solid #678383  ;
+    border-radius: ;
+}
 /* Color Theme Swatches in Hex */
 .Web-Portfolio-Cold-1-hex { color: #837A74; }
 .Web-Portfolio-Cold-2-hex { color: #FFFFFF; }
