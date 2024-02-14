@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
     display: grid;
     grid-template-columns: auto;
@@ -36,17 +38,18 @@ button {
     background-color: transparent;
     appearance: none;
     border: none;
-    padding-inline: 1rem;
+    padding-inline: 2rem;
     padding-block: 0.5rem;
     font-size: 2rem ;
-    font-family:gala ;
-    font-weight: ;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold ;
 }
 header button {
-    background-color: ;
-    color: ;
-    border: 2px solid #678383  ;
-    border-radius: ;
+    background-color:#F2F2F2;
+    color: #595959;
+    border: dashed orange;
+    border-radius: 25% 10%;
+    position: sticky;
 }
 /* Color Theme Swatches in Hex */
 .Web-Portfolio-Cold-1-hex { color: #837A74; }
@@ -56,3 +59,8 @@ header button {
 .Web-Portfolio-Cold-5-hex { color: #CDD0D0; }
 
 
+.w{color: #D9AC25;}
+.ww {color: #F2F2F2;}
+.www {color: #BFBFBF;}
+.wwww {color: #595959;}
+.wwwww {color: #0D0D0D;} 
