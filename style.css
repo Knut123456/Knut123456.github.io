@@ -2,6 +2,7 @@
 
 body {
     background: linear-gradient(0deg, #6f572f 50%, #66ff00 100%);
+
 }
 
 body {
@@ -28,9 +29,20 @@ body {
     border: 1px solid palegoldenrod;
 }
 
+.lin1 {
+    grid-area: lin1;
+}
+
+.link1
+
 .overskrift
+
 .img1div{
     grid-area: img1;
+}
+.img1div img {
+    justify-content: center;
+    align-items: center;
 }
 
 .img{
@@ -52,7 +64,15 @@ header button {
     color: #595959;
     border: dashed orange;
     border-radius: 25% 10%;
+}
+
+header {
     position: sticky;
+    top: 20px;
+}
+p {
+    font-family: "Roboto", sans-serif;
+    color: #0D0D0D;
 }
 /* Color Theme Swatches in Hex */
 .Web-Portfolio-Cold-1-hex { color: #837A74; }
