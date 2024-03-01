@@ -1,52 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
-    background: linear-gradient(0deg, #6f572f 50%, #66ff00 100%);
-
+    background-color: #678383;
 }
 
-body {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto 1fr 1fr 1fr;
-    grid-template-areas:
-       "head"
-       "info"
-       "ove1"
-       "img1"
-       "lin1 "      /*link */ 
-}
-
-.overskrift-div {
-    grid-area: head;
-    border: 1px solid palegoldenrod;
-    background-color: #837A74;
-}
-
-.overskrift1 {
-    grid-area: ove1;
-    background-color: red;
-    border: 1px solid palegoldenrod;
-}
-
-.lin1 {
-    grid-area: lin1;
-}
-
-.link1
-
-.overskrift
-
-.img1div{
-    grid-area: img1;
-}
-.img1div img {
-    justify-content: center;
+.kategorier {
+    font-size: 5rem;
     align-items: center;
+    justify-content: center;
+   display: flex;
 }
 
-.img{
-    width: 50%;
+.imgdiv img {
+    width: 100%;
+    float: right;
+}
+
+.imginfo {
+    display: flex;
+}
+
+.div-overskrift {
+    font-size: 4rem;
 }
 
 button {
@@ -62,17 +37,17 @@ button {
 header button {
     background-color:#F2F2F2;
     color: #595959;
-    border: dashed orange;
+    border: dashed rgb(255, 0, 0);
     border-radius: 25% 10%;
 }
 
 header {
-    position: sticky;
     top: 20px;
 }
 p {
     font-family: "Roboto", sans-serif;
     color: #0D0D0D;
+    font-size: 2rem;
 }
 /* Color Theme Swatches in Hex */
 .Web-Portfolio-Cold-1-hex { color: #837A74; }
