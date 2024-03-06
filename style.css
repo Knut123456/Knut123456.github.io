@@ -11,6 +11,10 @@ body {
    display: flex;
 }
 
+.link1info {
+    margin-top: 50%;
+}
+
 .imgdiv img {
     width: 100%;
     float: right;
