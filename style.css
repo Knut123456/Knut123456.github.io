@@ -5,10 +5,10 @@ body {
 }
 
 .kategorier {
-    font-size: 5rem;
+    font-size: 7rem;
     align-items: center;
     justify-content: center;
-   display: flex;
+    display: flex;
 }
 
 .link1info {
@@ -20,29 +20,51 @@ body {
     float: right;
 }
 
+.info h1 {
+    font-size: 15rem;
+}
+
 .imginfo {
     display: flex;
 }
 
 .div-overskrift {
-    font-size: 4rem;
+    font-size: 3rem;
+    display: flex;
+    margin: 3px;
 }
 
-button {
-    background-color: transparent;
-    appearance: none;
-    border: none;
-    padding-inline: 2rem;
-    padding-block: 0.5rem;
-    font-size: 2rem ;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold ;
-}
+
 header button {
-    background-color:#F2F2F2;
-    color: #595959;
-    border: dashed rgb(255, 0, 0);
-    border-radius: 25% 10%;
+    background-color: #837A74; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1,5rem;
+}
+
+.link1 button {
+    background-color: #837A74; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1,5rem;
+}
+
+#hovedsiden {
+    color: #D0CECD;
+    font-family: arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    
 }
 
 header {
