@@ -1,90 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 body {
-    background-color: #678383;
+    background-color: rgb(16, 198, 198);
 }
-
-.kategorier {
-    font-size: 7rem;
+.link1 {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    display: flex;
-}
-
-.link1info {
-    margin-top: 50%;
-}
-
-.imgdiv img {
-    width: 100%;
-    float: right;
-}
-
-.info h1 {
-    font-size: 15rem;
-}
-
-.imginfo {
-    display: flex;
-}
-
-.div-overskrift {
-    font-size: 3rem;
-    display: flex;
-    margin: 3px;
-}
-
-
-header button {
-    background-color: #837A74; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1,5rem;
 }
 
 .link1 button {
-    background-color: #837A74; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1,5rem;
+    margin: 20px;
+    width: 200px;
+    color: rgb(58, 67, 32);
+    background-color: rgba(16, 102, 99, 0.281);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 500ms;
 }
 
-#hovedsiden {
-    color: #D0CECD;
-    font-family: arial, sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    
+.link1 :hover {
+    width: 250px;
+    color: rgb(38, 18, 215);
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow:0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-header {
-    top: 20px;
+.meg_div {
+    display: flex;
 }
-p {
-    font-family: "Roboto", sans-serif;
-    color: #0D0D0D;
-    font-size: 2rem;
+.navn {
+    display: flex; 
+    align-self: center;
+    justify-content: center;
 }
-/* Color Theme Swatches in Hex */
-.Web-Portfolio-Cold-1-hex { color: #837A74; }
-.Web-Portfolio-Cold-2-hex { color: #FFFFFF; }
-.Web-Portfolio-Cold-3-hex { color: #D0CECD; }
-.Web-Portfolio-Cold-4-hex { color: #678383; }
-.Web-Portfolio-Cold-5-hex { color: #CDD0D0; }
+.profillbilde img {
+   border-radius: 100px ;
+   margin: 30px ;
+}
 
-
-.w{color: #D9AC25;}
-.ww {color: #F2F2F2;}
-.www {color: #BFBFBF;}
-.wwww {color: #595959;}
-.wwwww {color: #0D0D0D;} 
+.profillbilde {
+    display: flex;
+    margin-right: 200px;
+}

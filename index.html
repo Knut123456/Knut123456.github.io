@@ -5,15 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Hovedsiden min</title>
-    
+    <script src="javascript.js"></script>
 </head>
 <body>
-    <H1 id="hovedsiden">Dette her en info om Knut Røte, med portfolien, cv og om meg</H1>
+    <div class="meg_div">
+        <div class="profillbilde">
+            <img src="bilder/profil bilde.jpeg" alt="">
+        </div>
+        <div class="navn">
+            <H1 class="" id="hovedsiden"> Knut Røte</H1>
+        </div>
+    
+    </div>
+        
+  
+
     <div class="link1" >
-        <button class="linkport" onclick="linkport1()"> 
+        <button onclick="linkport1()"> 
             <p>portfolien</p>
         </button>
-        <button class="linkcd" onclick="linkcd1()">
+        <button onclick="linkcd1()">
             <p>Cv</p>
         </button>
         <button>
@@ -21,6 +32,5 @@
         </button>
     </div>
 
-    <script src="javascript.js"></script>
 </body>
 </html>
