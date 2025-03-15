@@ -1,46 +1,27 @@
-body {
-    background-color: rgb(16, 198, 198);
+.page{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
-.link1 {
+.nav {
+    grid-column: 1 / span 3;
+    grid-row: 1 / 2;
+}
+.nav-header{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+.nav-links{
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
 }
 
-.link1 button {
-    margin: 20px;
-    width: 200px;
-    color: rgb(58, 67, 32);
-    background-color: rgba(16, 102, 99, 0.281);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 500ms;
-}
-
-.link1 :hover {
-    width: 250px;
-    color: rgb(38, 18, 215);
-    background-color: aliceblue;
-    border-radius: 10px;
-    box-shadow:0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.meg_div {
-    display: flex;
-}
-.navn {
-    display: flex; 
-    align-self: center;
-    justify-content: center;
-}
-.profillbilde img {
-   border-radius: 100px ;
-   margin: 30px ;
-}
-
-.profillbilde {
-    display: flex;
-    margin-right: 200px;
+.name{
+    justify-content: flex-start;
+    font-size: 1.5em;
+    font-weight: bold;
 }
